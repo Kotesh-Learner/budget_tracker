@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'screens/dashboard_screen.dart';
+import 'screens/home_screen.dart';
 import 'services/storage_service.dart';
 
 Future<void> main() async {
@@ -23,7 +23,7 @@ class BudgetTrackerApp extends StatelessWidget {
         useMaterial3: true,
         colorSchemeSeed: Colors.green,
       ),
-      home: const DashboardScreen(),
+      home: const HomeScreen(),
     );
   }
 }
